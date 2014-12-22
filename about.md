@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+Hi. I'm Arne. (full: Arne Pierre Govaerts). I'm a 17 years old Belgian student who loves diving.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+<form action="//forms.brace.io/arne.govaerts@telenet.be">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> 
