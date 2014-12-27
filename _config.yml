@@ -21,11 +21,11 @@ footer-links:
   email:
   facebook: 
   flickr: 
-  github: AGovaerts
+  github: arovaerts
   instagram: 
   linkedin: 
   pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: http://argovaerts.github.io
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
