@@ -8,7 +8,7 @@ Hi. I'm Arne. (full: Arne Pierre Govaerts). I'm a 17 years old Belgian student w
 
 ### Contact me
 
-<form action="http://formspree.io/arne.govaerts@telenet.be" method="post">
+<form action="http://formspree.io/arne.govaerts@telenet.be" method="post" class="bootstrap-frm">
     <input type="text" name="name" placeholder="name"><br>
     <input type="email" name="_replyto" placeholder="email"><br>
     <input type="text" name="message" placeholder="message"><br>
