@@ -1,18 +1,60 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<html>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<head>
+
+	<!-- meta -->
+	<title>Arne Govaerts</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Personal page of Arne Govaerts" />
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Roboto&effect=shadow-multiple' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- IE6-8 support of HTML5 elements --> <!--[if lt IE 9]>
+
+	    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+	<![endif]-->
+	
+	</head>
+
+<body>
+
+	<nav>
+		<ul id="navigation">
+			<li><a class="button font-effect-shadow-multiple"><i class="fa fa-bars"></i></a>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="#1">Résume</a></li>
+					<li><a href="#2">Blog</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="#3">Tools</a></li>
+					<li><a href="divelog.html">Dive Log</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="text">
+		
+		<h1 class="font-effect-shadow-multiple">Hi I'm Arne</h1>
+		
+		<div class="content">
+			<p><!--<img src="img/arne_draw_8bit.bmp" align="right" width="25%">--> Ik ben een student Industriële Wetenschappen (1ste Bachelor) aan de Universiteit Gent, self taught coder (basic HTML, js, css en PHP) en scuba duiker (Padi AOW voor de kenners). Ik woon momenteel in Gent (BE) in de week en bij mijn ouders in het weekend. Ik creër websites voor mijn plezier. Je kan me altijd mailen voor een website voor een zachte prijs of een duik in de omgeving..</p>
+			
+			<p><a href="tel:+3247012345678" rel="nofollow" onclick="this.href='tel:' + '+32471304608' " class="reverse contact">80640317423+ <i class="fa fa-phone"></i></a></p>
+			<p><a href="mailto:failed@arne.bull" rel="nofollow" onclick="this.href='mailto:' + 'xar' + 'xne' + '&#46;' + 'xgo' + '&#118;' + 'a' + 'erxts' + '&#64;' + 'texle' + '&#110;' + 'ext' + '&#46;' + 'be'; this.href=this.href.replace(/x/g,'');" class="reverse contact">eb.tenelet@streavog.enra <i class="fa fa-envelope"></i></a></p>
+			<p><a href="https://github.com/argovaerts/" class="contact"><i class="fa fa-github"></i> argovaerts</a></p>
+			<p><a href="https://telegram.me/argovaerts" rel="nofollow" class="contact"><i class="fa fa-paper-plane"></i> @argovaerts</a></p>
+		</div>
+			
+	</div>
+	
+</body>
+
+</html>
