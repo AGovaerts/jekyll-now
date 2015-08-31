@@ -2,5 +2,6 @@
 My personal webpage
 
 ## Copyright
-Content & Code: Copyright 2015 Arne Govaerts
+Own content & code: Copyright 2015 Arne Govaerts
+Blog part is build on top of [jr](https://github.com/Xeoncross/jr] which is released under MIT license.
 Background picture: CC0 created by [Jay Mantri](http://jaymantri.com).
